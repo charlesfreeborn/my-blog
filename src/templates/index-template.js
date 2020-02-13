@@ -14,6 +14,7 @@ type Props = {
   pageContext: PageContext
 };
 
+
 const IndexTemplate = ({ data, pageContext }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
 

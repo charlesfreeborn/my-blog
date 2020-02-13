@@ -14,6 +14,7 @@ module.exports = {
     menu: siteConfig.menu,
     author: siteConfig.author
   },
+  
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
@@ -187,7 +188,7 @@ module.exports = {
         background_color: '#FFF',
         theme_color: '#F7A046',
         display: 'standalone',
-        icon: 'static/photo.jpg'
+        icon: 'static/CharlesFreeborn.jpg' //myphotoHEre
       },
     },
     'gatsby-plugin-offline',

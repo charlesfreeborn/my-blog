@@ -6,6 +6,7 @@ type Props = {
   children: React.Node
 };
 
+
 const Page = ({ title, children }: Props) => {
   const pageRef = useRef();
 
